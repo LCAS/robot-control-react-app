@@ -1,0 +1,52 @@
+{
+  "name": "robot-control-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "author": "LCAS Robotics Team",
+  "description": "A React.js application for robot control using Redux, roslib and rosbridge with real-time monitoring capabilities",
+  "keywords": ["react", "robotics", "ros", "redux", "robot-control", "rosbridge", "real-time"],
+  "homepage": "https://github.com/lcas/robot-control-react-app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lcas/robot-control-react-app.git"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-redux": "^9.2.0",
+    "react-scripts": "5.0.1",
+    "roslib": "^1.2.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js,.jsx",
+    "lint:fix": "eslint src --ext .js,.jsx --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
